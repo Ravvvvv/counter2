@@ -1,0 +1,11 @@
+.buttonsPanel button {
+  margin: 0 5px;
+  font-weight: bold;
+}
+
+.single-button {
+  cursor: pointer;
+  background-color: burlywood;
+  padding: 10px;
+  border-radius: 50%;
+}

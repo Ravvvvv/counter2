@@ -1,0 +1,36 @@
+.counter {
+  /* border: 1px solid black; */
+  max-width: 600px;
+  margin: auto;
+  margin-top: 15px;
+  padding: 30px;
+}
+
+/* .counter button {
+  background-color: blue;
+  color: white;
+  padding: 15px 15px;
+  border: none;
+  cursor: pointer;
+}
+.counter button:hover {
+  background-color: lightseagreen;
+} */
+
+.clockControl {
+  color: white;
+  margin: 0;
+  font-family: "Changa One";
+}
+
+input {
+  background-color: burlywood;
+  margin-top: 20px;
+}
+
+.step {
+  color: white;
+  font-size: 35px;
+  font-weight: bold;
+  margin: 0;
+}

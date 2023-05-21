@@ -44,9 +44,7 @@ const Counter = (props) => {
     <div className="counter">
       <Display counter={counter} />
       <ButtonsPanel updateCounter={updateCounter} stepValue={stepValue} />
-      {showClock ? <Clock setShowClock={setShowClock} /> : <p className='clockControl' onClick={() => setShowClock(true)}
-       //funkcja strzalkowa potrzebuje funkcji ktora odpali od razu a funkcja bez parametru 
-      >pokaż zegar</p>}
+      {showClock ? <Clock setShowClock={setShowClock} /> : <p className='clockControl' onClick={() => setShowClock(true)}>pokaż zegar</p>}
       <Step stepChange={stepChange} />
       {/* <Button setPokazStep={setPokazStep}/> */}
 
